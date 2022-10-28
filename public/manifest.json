@@ -1,0 +1,8 @@
+{
+  "short_name": "Dev Lu",
+  "name": "Dev Lu",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,537 @@
+.auth {
+  min-height: 100vh;
+  padding-top: 1.4vw;
+}
+
+.app-title {
+  font-size: 4.8vw;
+  text-align: center;
+  color: #1877f2;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.4vw;
+  margin-bottom: 1.8vw;
+}
+
+.error-message {
+  width: 30vw;
+  display: block;
+  margin: 0 auto 1.2vw auto;
+  text-align: center;
+  color: rgb(97, 3, 3);
+  font-size: 1.4vw;
+}
+
+.form-container {
+  width: 30vw;
+  margin: 0 auto;
+  border: 0.07vw solid gray;
+  border-radius: 0.6vw;
+  background-color: #fff;
+}
+
+.form-control {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control input {
+  width: 90%;
+  height: 3vw;
+  padding-left: 1.2vw;
+  border: 0.07vw solid #1877f2;
+  border-radius: 0.6vw;
+  font-size: 1.2vw;
+}
+
+.form-control input:focus {
+  background-color: #e8f0fe;
+  font-weight: bold;
+}
+
+.form-control button {
+  width: 60%;
+  height: 3vw;
+  border: none;
+  border-radius: 1.2vw;
+  outline: none;
+  background-color: #1877f2;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+.form-control a {
+  width: 80%;
+  height: 2.6vw;
+  display: grid;
+  place-content: center;
+  border-radius: 0.6vw;
+  background-color: #42b72a;
+  color: #fff;
+  font-size: 1vw;
+  text-decoration: none;
+}
+
+
+
+.fav-button:hover svg {
+  color: rgb(97, 3, 3);
+}
+
+.fav-button {
+  width: 5vw;
+  height: 5vw;
+  display: grid;
+  place-content: center;
+  border: none;
+  font-size: 1vw;
+  background: none;
+  cursor: pointer;
+}
+
+.fav-repos {
+  padding: 1.2vw;
+  color: #3b0238;
+}
+
+.fav-label {
+  text-align: center;
+  font-size: 1.4vw;
+  margin-bottom: 1.2vw;
+}
+
+.no-fav-container {
+  width: 90vw;
+  min-height: 90vh;
+  margin: 0 auto;
+}
+
+.no-fav-label {
+  text-align: center;
+  font-size: 2vw;
+}
+.home {
+  min-height: 90vh;
+  padding: 1.2vw;
+  background-color: #fff;
+  color: #3b0238;
+}
+
+.welcome-title {
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+.label {
+  text-align: center;
+  font-size: 1.4vw;
+  margin-bottom: 1.2vw;
+}
+
+.no-results-container {
+  width: 90vw;
+  min-height: 90vh;
+  margin: 0 auto;
+}
+
+.no-results-label {
+  text-align: center;
+  font-size: 2vw;
+}
+
+.join {
+  font-size: 1.2vw;
+}
+
+.join-link {
+  text-decoration: none;
+  color: #42b72a;
+}
+
+.nav-bar {
+  min-height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0.07vw 0.23vw 0.5vw -0.15vw rgba(18, 19, 23, 0.92);
+  background-color: #e100ff47;
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  list-style: none;
+  color: #fff;
+}
+
+.link a:hover svg {
+  color: #fff;
+}
+
+.link {
+  width: 40%;
+  display: grid;
+  place-content: center;
+  font-size: 1.0vw;
+}
+
+.link svg {
+  color: rgb(255, 255, 255);
+  margin-left: 0.6vw;
+  padding-right: 3px;
+}
+
+.profile {
+  padding: 1.2vw;
+  color: #000;
+}
+
+.user-info {
+  width: 40vw;
+  min-height: 80vh;
+  margin: 0 auto;
+}
+
+.profile-label {
+  text-align: center;
+  font-size: 1.4vw;
+  margin-bottom: 1.2vw;
+}
+
+.avatar-container {
+  width: 12vw;
+  height: 12vw;
+  margin: 0 auto 1.2vw auto;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.info-container {
+  text-align: center;
+  font-size: 1vw;
+  margin-bottom: 1.2vw;
+}
+
+.logout-button {
+  width: 40%;
+  height: 3vw;
+  border: none;
+  border-radius: 1.2vw;
+  background: none;
+  background-color: rgb(97, 3, 3);
+  color: #fff;
+  font-size: 1vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.repo {
+  width: 40vw;
+  min-height: 12vh;
+  display: flex;
+  border: 2px solid #000000;
+  border-radius: 0.6vw;
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+}
+
+.repo-info:hover h2 {
+  color: #2a2fb7;
+}
+
+.repo-info {
+  width: 80%;
+  padding: 1.2vw;
+}
+
+.repo-info h2 {
+  font-size: 1.5vw;
+}
+
+.repo-info p {
+  font-size: 1vw;
+}
+
+.repo-info h2,
+.repo-info p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.repo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fav-button-container {
+  width: 20%;
+  display: grid;
+  place-content: center;
+}
+
+.repos-container {
+  width: 90vw;
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content;
+  grid-auto-rows: max-content;
+  justify-items: center;
+  gap: 1.4vw;
+  margin: 0 auto;
+}
+
+.search-bar {
+  width: 30%;
+  padding: 10px;
+}
+
+.search-input {
+  width: 80%;
+  height: 1.8vw;
+  padding-left: 1.4vw;
+  border: none;
+  border-radius: 0.6vw;
+  font-size: 1vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .form-container {
+    width: 90vw;
+    border: 1px solid gray;
+    border-radius: 2.5vw;
+  }
+
+  .form-control input {
+    height: 6vh;
+    padding-left: 5vw;
+    border: 1px solid #1877f2;
+    border-radius: 2.5vw;
+    font-size: 5vw;
+  }
+
+  .form-control button {
+    height: 6vh;
+    border-radius: 2.5vw;
+    font-size: 5vw;
+  }
+
+  .form-control a {
+    height: 4.5vh;
+    border-radius: 2.5vw;
+    font-size: 5vw;
+  }
+  .fav-button {
+    width: 12vw;
+    height: 12vw;
+    font-size: 10vw;
+  }
+  .auth {
+    padding-top: 15vw;
+  }
+
+  .app-title {
+    font-size: 15vw;
+  }
+
+  .description {
+    font-size: 5vw;
+  }
+
+  .error-message {
+    width: 100vw;
+    font-size: 5vw;
+    margin: 0 auto 5vw auto;
+  }
+
+  .fav-repos {
+    padding: 5vw;
+  }
+
+  .fav-label {
+    font-size: 8vw;
+    margin-bottom: 5vw;
+  }
+
+  .no-fav-label {
+    font-size: 6vw;
+  }
+
+  .home {
+    padding: 5vw;
+  }
+
+  .welcome-title {
+    font-size: 8vw;
+    margin-bottom: 5vw;
+  }
+
+  .label {
+    font-size: 8vw;
+    margin-bottom: 5vw;
+  }
+
+  .join {
+    font-size: 4vw;
+  }
+
+  .no-results-label {
+    font-size: 6vw;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    padding: 2.5vw;
+    box-shadow: 1px 3px 7px -2px rgba(18, 19, 23, 0.92);
+  }
+
+  .links {
+    width: 100%;
+  }
+
+  .link {
+    width: 33.33%;
+    display: grid;
+    place-content: center;
+    font-size: 5vw;
+  }
+
+  .link svg {
+    font-size: 5vw;
+    margin-left: 2.5vw;
+  }
+
+  .profile {
+    padding: 5vw;
+  }
+
+  .user-info {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .avatar-container {
+    width: 47vw;
+    height: 47vw;
+    margin: 0 auto 8vw auto;
+  }
+
+  .info-container {
+    font-size: 5vw;
+    margin-bottom: 8vw;
+  }
+
+  .profile-label {
+    font-size: 8vw;
+    margin-bottom: 5vw;
+  }
+
+  .logout-button {
+    font-size: 5vw;
+    border-radius: 5vw;
+    height: 12.5vw;
+  }
+
+  .no-fav-label {
+    font-size: 6vw;
+  }
+
+  .repo {
+    width: 100%;
+    border-radius: 2.5vw;
+  }
+
+  .repo-info {
+    padding: 1rem;
+  }
+
+  .repo-info h2 {
+    font-size: 5vw;
+  }
+
+  .repo-info p {
+    font-size: 4vw;
+  }
+
+  .repos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .repos-container h1 {
+    font-size: 6vw;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-top: 5vw;
+  }
+
+  .search-input {
+    display: block;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 5vw;
+    border-radius: 2.5vw;
+    font-size: 5vw;
+  }
+  
+}
+@media screen and (min-width: 425px) and (max-width: 1025px) and (max-height: 768px) {
+  .form-container {
+    width: 90vw;
+  }
+
+  .form-control {
+    height: 20vh;
+  }
+
+  .form-control input {
+    height: 12vh;
+  }
+
+  .form-control button {
+    height: 12vh;
+  }
+
+  .form-control a {
+    height: 12vh;
+  }
+}
+
+@media screen and (min-width: 5120px) and (min-height: 1440px) {
+  .form-control {
+    height: 15vh;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-height: 540px) {
+  .auth {
+    padding-top: 3vw;
+  }
+}
